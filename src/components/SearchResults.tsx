@@ -1,16 +1,10 @@
 import { Box, Paper } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
+import { SearchType } from "../types";
 
-const SearchResults = ({ searchResults, keyword }: any) => {
-  console.log(searchResults);
-  //   searchResults.map((meaning: any) => {
-  //     console.log(meaning);
-  //     console.log(meaning.definitions);
-  //     meaning.definitions.map((definition: any) => {
-  //       console.log("defintion : ", definition.definition);
-  //     });
-  //   });
+const SearchResults = ({ searchResults, keyword } : SearchType) => {
+ 
   const navigate = useNavigate();
 
   return (

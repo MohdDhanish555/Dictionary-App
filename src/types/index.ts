@@ -4,3 +4,8 @@ export type wordType = {
     definition: string
     pronunciation : string
 }
+
+export type SearchType = {
+    searchResults: any,
+    keyword : string
+}
